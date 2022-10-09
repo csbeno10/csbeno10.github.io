@@ -1,0 +1,31 @@
+body {
+    background-image: url('bg.jpg');
+}
+
+
+#game {
+    display: inline-block;
+    background-color: white;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin: auto;
+    text-align: center;
+}
+
+.button {
+    margin: 10pt;
+    border: 3px solid white;
+    background-color: white;
+}
+
+.button:hover {
+    border:3px solid black;
+}
+
+#score {
+    text-align: left;
+    margin: 20px;
+
+}
